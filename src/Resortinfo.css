@@ -1,0 +1,109 @@
+.resort-info {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.resort-description {
+  width: 50%;
+  text-align: left;
+}
+
+.resort-description p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.resort-images {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.resort-images img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.resort-info {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.facility {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.facility h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.facility ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.facility ul li {
+  width: 200px; /* Adjust the width of each box */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for the hover effect */
+}
+
+.facility ul li:hover {
+  transform: translateY(-10px); /* Pop-up effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 3D hover effect */
+}
+
+ 
+
+@media (max-width: 768px) {
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resort-description, .resort-images, .facility {
+    width: 100%;
+  }
+   .facility ul {
+    flex-direction: column;
+  }
+
+  .facility ul li {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+
+}

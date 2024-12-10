@@ -1,0 +1,44 @@
+.home {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+marquee {
+  font-size: 24px;
+  color: #ff5733;
+  margin: 20px 0;
+}
+
+.imageDiv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.imageDiv img {
+  width: 45%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imageDiv img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center h1 {
+  margin-bottom: 20px;
+}
